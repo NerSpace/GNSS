@@ -1,17 +1,17 @@
 #!/usr/bin/env python
 
 ########################################################################
-# Sentus.py:
+# Main.py:
 # This is the Main Module of SENTUS tool
 #
 #  Project:        SENTUS
-#  File:           Sentus.py
+#  File:           Main.py
 #
 #   Author: Nerea Sánchez
 #   Copyright 2024 GNSS Academy / Nerea Sánchez
 #
 # Usage:
-#   Sentus.py $SCEN_PATH
+#   Main.py $SCEN_PATH
 ########################################################################
 
 
