@@ -4,7 +4,7 @@ This repository contains Python scripts developed as part of a GNSS-focused tech
 It is split into two folders: Acquisition-Tracking and PVT Solution. 
 
 ## Acquisition-Tracking
-- **Goal: ** Develop a SDR (Software Defined Receiver) in the acquisition and tracking processes. 
+- **Goal:** Develop a SDR (Software Defined Receiver) in the acquisition and tracking processes. 
 - Input data is not uploaded but there is a folder including an example of the ouput figures.
 
 ## PVT Solution
