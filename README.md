@@ -5,7 +5,6 @@ It is split into two folders: Acquisition-Tracking and PVT Solution.
 
 ## Acquisition-Tracking
 - **Goal: ** Develop a SDR (Software Defined Receiver) in the acquisition and tracking processes. 
-- (For now the acquisition part is completed and the tracking part is still in process).
 - Input data is not uploaded but there is a folder including an example of the ouput figures.
 
 ## PVT Solution
