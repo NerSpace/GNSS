@@ -20,8 +20,8 @@
 # * matplotlib
 
 ''' Uncomment depending on which constellation you want to acquire/track'''
-# from SettingsGps import Settings as Settings
-from SettingsGal import Settings as Settings
+from SettingsGps import Settings as Settings
+# from SettingsGal import Settings as Settings
 
 import os
 import numpy as np
@@ -63,4 +63,13 @@ class Channels:
 channelsGps = Channels()
 channelsGal = Channels()
 
-print("Done!")
+# Run Tracking and build measurements if signal is GPS L1 C/A
+if "gpsl1c" in settings.signal:
+    # Initialize Tracking Channels
+    loadChannels(settings, acqResultsGpsL1C, channelsGps)
+
+    # Run Tracking of GPS satellites
+    trackResultsGpsL1C = tracking(settings, inputSignal, channelsGps)
+
+    # Build measurements of GPS satellites
+    MeasGpsL1C = buildMeas(settings, trackResultsGpsL1C)

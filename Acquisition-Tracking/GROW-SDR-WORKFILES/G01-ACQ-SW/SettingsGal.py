@@ -32,4 +32,5 @@ class Settings:
     # below - in Nav parameters) to ensure nav subframes are provided
     msToProcess        = 20        #[ms]
 
+
 # end of class Settings
